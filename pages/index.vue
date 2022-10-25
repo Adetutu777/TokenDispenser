@@ -1,6 +1,6 @@
 <template>
 <div class="body-col">
-    <div class="container element-container w-50">
+    <div class="container element-container">
         <!-- creating tabs, gotten from bootstrapVue -->
         <b-card no-body>
             <b-tabs pills card>
@@ -216,6 +216,7 @@ export default {
 }
 
 .element-container {
+    max-width: 50rem;
     padding-top: 8rem;
 }
 
