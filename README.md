@@ -1,4 +1,4 @@
-### This is a Frontend implementation of ERC20 Standard functions integrated with Ether.js
+### This is a frontend implementation of ERC20 Standard functions integrated with Ether.js
 - Live link : https://tutu-erc20token.netlify.app/
 
 -Frontend tech stack used : NuxtJs, VueJs, BootstrapVue
