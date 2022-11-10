@@ -102,7 +102,7 @@ export default {
         const tokenName = ref('')
         const tokenSymbol = ref('')
         const balance = ref('')
-        const myAddress = ref('')
+        const myAddress = ref('0x3dF043F83F81a273812C17859433CC15E55e0EDc')
         const tokenAllowance = ref('')
         const spenderAddress = ref(spender)
         const receiverAddress = ref('0xB5f3815f527285B061AC1d0897aB928701Bb9a71')
@@ -163,8 +163,9 @@ export default {
             const contract = getContract()
             tokenAllowance.value = 'loading'
             const checkAllowance = await contract.allowance(walletAddress.value, spender)
-            tokenAllowance.value = checkAllowance.toString() / 10 ** 18
-            console.log(tokenAllowance.value)
+            tokenAllowance.value = checkAllowance.toString()
+            // tokenAllowance.value = checkAllowance.toString() / 10 ** 18
+
         }
 // function to connect to MetaMask
         const onClickConnect = async () => {
