@@ -202,7 +202,7 @@ export default {
         
 
         return {totalSupply, getTotalSupply, tokenName, getTokenName, getTokenSymbol, tokenSymbol, getBalance, balance, myAddress,getAllowance, tokenAllowance, spenderAddress, checkMetaMaskConnected, onClickConnect, receiverAddress, amount, transferToken,
-        transferMsg, approvalMsg, approveToken
+        transferMsg, approvalMsg, approveToken 
         }
     }
 }

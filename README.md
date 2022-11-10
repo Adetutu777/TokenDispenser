@@ -5,7 +5,7 @@
 
 ![image](./image/screencapture-tutu-erc20token-netlify-app-2022-10-25-17_08_37.png?raw=true "Optional Title")
 
-![image](./image//22.JPG "Optional Title")
+![image](./image//22.JPG "Optional Title")..
 
 
 
